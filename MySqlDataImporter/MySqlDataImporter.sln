@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDataImporter", "MySqlD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportExportDataLibrary", "ImportExportDataLibrary\ImportExportDataLibrary.csproj", "{DC2840DB-9CB7-4A05-BF05-A6E20B189906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataExporter", "DataExporter\DataExporter.csproj", "{BB28AF97-B0EB-482D-AFF6-6EAA98E2C775}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC2840DB-9CB7-4A05-BF05-A6E20B189906} = {DC2840DB-9CB7-4A05-BF05-A6E20B189906}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{DC2840DB-9CB7-4A05-BF05-A6E20B189906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC2840DB-9CB7-4A05-BF05-A6E20B189906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC2840DB-9CB7-4A05-BF05-A6E20B189906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB28AF97-B0EB-482D-AFF6-6EAA98E2C775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB28AF97-B0EB-482D-AFF6-6EAA98E2C775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB28AF97-B0EB-482D-AFF6-6EAA98E2C775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB28AF97-B0EB-482D-AFF6-6EAA98E2C775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
