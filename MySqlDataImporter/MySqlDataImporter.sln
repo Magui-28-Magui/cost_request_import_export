@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDataImporter", "MySqlDataImporter\MySqlDataImporter.csproj", "{87589361-13C4-4F53-8073-23A013509535}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC2840DB-9CB7-4A05-BF05-A6E20B189906} = {DC2840DB-9CB7-4A05-BF05-A6E20B189906}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportExportDataLibrary", "ImportExportDataLibrary\ImportExportDataLibrary.csproj", "{DC2840DB-9CB7-4A05-BF05-A6E20B189906}"
 EndProject

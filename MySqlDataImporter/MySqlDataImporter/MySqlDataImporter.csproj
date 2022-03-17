@@ -105,5 +105,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ImportExportDataLibrary\ImportExportDataLibrary.csproj">
+      <Project>{DC2840DB-9CB7-4A05-BF05-A6E20B189906}</Project>
+      <Name>ImportExportDataLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

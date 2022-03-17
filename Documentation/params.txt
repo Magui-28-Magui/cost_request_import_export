@@ -1,0 +1,1 @@
+"C:\Users\jaure\Desktop\Martech Var Report Dem-Inv PP2 NEW.xlsx" "PL-BD" "Item|Description|I/T|Class|CT|Standardlotsize" "test" "items" "item_name|description|it|class|ct|std_lot_size" "string|string|int|string|int|int" "127.0.0.1:3306" "root" "" 
